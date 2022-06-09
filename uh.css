@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+
+body {
+    font-family: "Dosis", sans-serif;
+    font-size: 20px;
+    background-color: rgb(212, 0, 255);
+    color: white;
+}
+.Number {
+    color: black;
+    font-size: 80px;
+    position: fixed;
+    top: 50%;
+    width: 100%
+}
