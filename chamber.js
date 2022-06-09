@@ -24,6 +24,9 @@ var operator = 0
   if (operator == 1.3) {
     num = ExpantaNum.mul(num,ExpantaNum.add(ExpantaNum.mul(power,5e6),1e8))
 }
+  if (operator == 1.4) {
+    num = ExpantaNum.mul(num,ExpantaNum.add(ExpantaNum.mul(power,ExpantaNum.mul(5e9,ExpantaNum.log10(num))),2.5e10))
+}
   if (operator == 2) {
     num = ExpantaNum.pow(num,ExpantaNum.add(ExpantaNum.div(power,1500),1))
 }
@@ -63,8 +66,10 @@ if (ExpantaNum.gte(num,ExpantaNum.tetr(10,8)) && ExpantaNum.lt(num,ExpantaNum.te
         operator = 1}
     if (ExpantaNum.gte(num,ExpantaNum.pow(10,159)) && ExpantaNum.lt(num,ExpantaNum.pow(10,990)) == true) {
          operator = 1.1}    
-   if (ExpantaNum.gte(num,ExpantaNum.pow(10,990)) && ExpantaNum.lt(num,ExpantaNum.pow(10,3000)) == true) {
+    if (ExpantaNum.gte(num,ExpantaNum.pow(10,990)) && ExpantaNum.lt(num,ExpantaNum.pow(10,3000)) == true) {
           operator = 1.2}
-     if (ExpantaNum.gte(num,ExpantaNum.pow(10,3000)) && ExpantaNum.lt(num,ExpantaNum.pow(10,ExpantaNum.pow(10,724))) == true) {
+    if (ExpantaNum.gte(num,ExpantaNum.pow(10,3000)) && ExpantaNum.lt(num,ExpantaNum.pow(10,ExpantaNum.pow(10,5))) == true) {
           operator = 1.3}
+     if (ExpantaNum.gte(num,ExpantaNum.pow(10,1e5)) && ExpantaNum.lt(num,ExpantaNum.pow(10,ExpantaNum.pow(10,306))) == true) {
+          operator = 1.4}
   }
