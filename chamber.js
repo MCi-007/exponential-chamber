@@ -1,5 +1,5 @@
 var num = 0
-var power = 0
+var power = 1
 var operator = 0
 
   window.setInterval(function() {
