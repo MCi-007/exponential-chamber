@@ -70,6 +70,6 @@ if (ExpantaNum.gte(num,ExpantaNum.tetr(10,8)) && ExpantaNum.lt(num,ExpantaNum.te
           operator = 1.2}
     if (ExpantaNum.gte(num,ExpantaNum.pow(10,3000)) && ExpantaNum.lt(num,ExpantaNum.pow(10,3e4)) == true) {
           operator = 1.3}
-     if (ExpantaNum.gte(num,ExpantaNum.pow(10,3e4)) && ExpantaNum.lt(num,ExpantaNum.pow(10,ExpantaNum.pow(10,306))) == true) {
+     if (ExpantaNum.gte(num,ExpantaNum.pow(10,3e4)) && ExpantaNum.lt(num,ExpantaNum.pow(10,199999)) == true) {
           operator = 1.4}
   }
