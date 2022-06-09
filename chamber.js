@@ -4,6 +4,8 @@ var operator = 0
 
   window.setInterval(function() {
     updatenum()
+    updateoperator()
+    updatepow()
     document.getElementById("num").innerHTML = num
   }, 50);
   function updatenum() {
