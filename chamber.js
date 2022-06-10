@@ -9,7 +9,7 @@ var hue = 0
     updateoperator()
     updatepow()
     document.getElementById("num").innerHTML = num
-    document.getElementById("body").uh.backgroundColor = hsl(hue, 100, 50)
+    document.getElementById("body").style.background-color ; hsl(hue, 100, 50)
   }, 50);
   function updatenum() {
   if (operator == 0) {
