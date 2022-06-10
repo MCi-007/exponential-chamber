@@ -1,12 +1,15 @@
 var num = 0
 var power = 1
 var operator = 0
+var hue = 0
 
   window.setInterval(function() {
+    var hue = ExpantaNum.add(hue,1)
     updatenum()
     updateoperator()
     updatepow()
     document.getElementById("num").innerHTML = num
+    document.getElementById("body").style.backgroundColor = hsl(hue, 100, 50)
   }, 50);
   function updatenum() {
   if (operator == 0) {

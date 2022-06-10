@@ -3,7 +3,7 @@
 body {
     font-family: "Dosis", sans-serif;
     font-size: 20px;
-    background-color: rgb(212, 0, 255);
+    background-color: hsl(0, 100, 50);
     color: white;
 }
 .Number {
