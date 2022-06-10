@@ -19,7 +19,7 @@ var hue = 0
     num = ExpantaNum.mul(num,ExpantaNum.add(ExpantaNum.div(power,100),1))
 }
   if (operator == 1.1) {
-    num = ExpantaNum.mul(num,ExpantaNum.add(ExpantaNum.mul(power,1.5),5))
+    num = ExpantaNum.mul(num,ExpantaNum.add(ExpantaNum.mul(power,2),5))
 }
   if (operator == 1.2) {
     num = ExpantaNum.mul(num,ExpantaNum.add(ExpantaNum.mul(power,50),350))
@@ -48,7 +48,7 @@ var hue = 0
   }
   function updatepow() {
   if (ExpantaNum.gte(num,10) && ExpantaNum.lt(num,100) == true) {
-    power = 2.5}
+    power = 3}
  if (ExpantaNum.gte(num,100) && ExpantaNum.lt(num,1e15) == true) {
       power = 8}
  if (ExpantaNum.gte(num,1e15) && ExpantaNum.lt(num,1e71) == true) {
